@@ -1,0 +1,220 @@
+body {
+  background-color: #B0C4DE
+}
+.header {
+  background-color: #121212;
+  color: #DDDDDD;
+  position: absolute;
+  top:-25px;
+  left:0px;
+  right:0px;
+}
+.centerI {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-radius: 20px;
+   border-color: #000000
+   border-style: solid;
+   border-width: medium;
+}
+.textopen {
+  font-family:Orbitron;
+  text-align: center;
+background-color: #4682B4;
+border-radius: 20px;
+width: 450px;
+padding: 10px;
+border-style: solid;
+border-color: #000000
+}
+.introduction {
+  font-family:Orbitron;
+  text align: center;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+border-radius: 20px;
+}
+.home {
+  font-family:Orbitron;
+  text-align: center;
+  background-color: #121212;
+  top:0px;
+  left:375px;
+  position:absolute;
+font-size: 27px;
+color: #FFFFFF;
+}
+.adventures {
+  font-family:Orbitron;
+  text-align: center;
+  background-color: #121212;
+  top:0px;
+  left:475px;
+  position:absolute;
+font-size: 27px;
+color: #FFFFFF;
+}
+.items {
+  font-family:Orbitron;
+  text-align: center;
+  background-color: #121212;
+  top:0px;
+  left:667px;
+  position:absolute;
+font-size: 27px;
+color: #FFFFFF;
+}
+.rules {
+  font-family:Orbitron;
+  text-align: center;
+  background-color: #121212;
+  top:0px;
+  left:762px;
+  position:absolute;
+font-size: 27px;
+color: #FFFFFF;
+}
+.adlist1 {
+  font-family:Orbitron;
+  text align: left;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+width: 210px;
+position:fixed;
+top: 97px;
+
+}
+.adlist1-1 {
+  font-family:Orbitron;
+  text align: center;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+border-radius: 15px;
+left: 20px;
+position: fixed;
+top: 130px;
+z-index: -1;
+}
+.adlist2 {
+  font-family:Orbitron;
+  text align: left;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+width: 210px;
+position:fixed;
+top: 300px;
+
+}
+.adlist2-1 {
+  font-family:Orbitron;
+  text align: center;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+border-radius: 15px;
+left: 20px;
+position: fixed;
+top: 333px;
+z-index: -1;
+}
+.home:hover {
+    background-color: #FCFCFC;
+    color: #000000;
+}
+.adventures:hover{
+    background-color: #FCFCFC;
+    color: #000000;
+}
+.items:hover {
+    background-color: #FCFCFC;
+    color: #000000;
+}
+.rules:hover {
+    background-color: #FCFCFC;
+    color: #000000;
+}
+.centerII {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   border-radius: 20px;
+   border-color: #000000
+   border-style: solid;
+   border-width: medium;
+   position: fixed;
+   top: 410px;
+   z-index: -2;
+   left: 30px;
+}
+.discord {
+  font-family:Orbitron;
+  text align: center;
+  background-color: #C0C0C0;
+  border-style: solid;
+border-color: #000000;
+border-width: medium;
+padding: 10px;
+border-radius: 20px;
+left: 135px;
+position: relative;
+
+}
+.footer {
+  background-color: #010101;
+  color: #ffffff;
+  left:0;
+  right:0;
+  position: absolute;
+  bottom:0;
+  height: 40px;
+  font-size: 35px;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #264862;
+  position: relative;
+  animation-name: shure;
+  animation-duration: 8s;
+}
+@keyframes shure{
+  0% {background-color: #264862;
+  left:0px; top: 100px; }
+  25% { background-color: #fa56a7;
+  left:200px; top: 50px; width: 500px;}
+  50% {background-color: #bbc138;
+  left:300px; top:110px; width: 200px;}
+  75% { background-color: #454389
+  left: 300px; top: 105px; width: 150px;}
+  100% { background-color:#264862;
+  left:0px; top:100px; }
+}
+table, th, td {
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+  background-color: #ffffff;
+}
+.starship-1 {
+  border: 2px solid;
+  padding: 15px;
+  resize: both;
+  overflow: auto;
+}
